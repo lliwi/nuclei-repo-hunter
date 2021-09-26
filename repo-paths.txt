@@ -1,0 +1,5 @@
+.git/
+.snv/
+CVS/
+.bzr/
+.hg/
