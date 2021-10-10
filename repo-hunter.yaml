@@ -13,7 +13,10 @@ requests:
       - "{{BaseURL}}/{{repo-path}}"
     payloads:
       repo-path: repo-paths.txt
-      
+    
+    attack: sniper
+    stop-at-first-match: true
+    threads: 50
     matchers-condition: and  
     matchers:
       - type: status
